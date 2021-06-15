@@ -6,7 +6,7 @@ Simple(N, vis=True).graph("initial")
 
 def classify(pt):
     "Classify based on x position"
-    if pt[0] > 0.5:
+    if pt[0] > 0.7 or pt[0]< 0.3 :
         return 1.0
     else:
         return 0.0
